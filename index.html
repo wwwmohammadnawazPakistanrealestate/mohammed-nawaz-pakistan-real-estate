@@ -1,166 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>M. Nawaz Real Estate Pakistan | Premium Properties | Bahria Town & DHA Specialist</title>
-<meta name="description" content="M. Nawaz Real Estate - Trusted since 2010. Specializing in Bahria Town, DHA Lahore, Islamabad. Residential, Commercial, Shopping Centers, Plazas, Parking, CCTV Security.">
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<style>
-body{font-family:'Montserrat',sans-serif;scroll-behavior:smooth}
-h1,h2,h3{font-family:'Playfair Display',serif}
-.hero-bg{background:linear-gradient(rgba(1,65,28,0.85),rgba(0,0,0,0.7)),url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&w=1920');background-size:cover;background-position:center;background-attachment:fixed}
-.gold{color:#c9a86a}.bg-gold{background:#c9a86a}
-.green-bg{background:#01411C}
-.card-hover{transition:all 0.4s}.card-hover:hover{transform:translateY(-10px);box-shadow:0 20px 40px rgba(0,0,0,0.15)}
-.reveal{opacity:0;transform:translateY(30px);transition:0.8s}.reveal.active{opacity:1;transform:translateY(0)}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M. Nawaz Real Estate Pakistan | Premium Properties</title>
+  <meta name="description" content="M Nawaz Real Estate Pakistan - Bahria Town DHA Specialist">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fcfaf7;
+    }
+   .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&w=1920');
+      background-size: cover;
+      background-position: center;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
 </head>
-<body class="bg-[#fcfaf7]">
+<body>
 
-<!-- TOP BAR -->
-<div class="bg-black text-white text-xs py-2 px-6 flex justify-between">
-<div><i class="fa fa-phone"></i> 0308-6526514 | 0326-4428562</div>
-<div><i class="fa fa-envelope"></i> muhammadnawazoffical@gmail.com</div>
-</div>
+  <!-- ====================================================== -->
+  <!-- TOP CONTACT BAR -->
+  <!-- ====================================================== -->
+  <div class="bg-black text-white text-xs py-2 px-6 flex justify-between">
+    <div>
+      <i class="fa fa-phone"></i> 0308-6526514 | 0326-4428562
+    </div>
+    <div>
+      <i class="fa fa-envelope"></i> muhammadnawazoffical@gmail.com
+    </div>
+  </div>
 
-<!-- NAVIGATION -->
-<nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md">
-<div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
-<div class="flex items-center gap-3">
-<div class="w-12 h-12 bg-[#01411C] rounded-full flex items-center justify-center text-white font-bold text-xl">MN</div>
-<div><p class="font-extrabold text-[#01411C] text-lg leading-none">M. NAWAZ</p><p class="text-[10px] tracking-[4px] text-[#c9a86a] font-bold">REAL ESTATE PAKISTAN</p></div>
-</div>
-<div class="hidden lg:flex gap-7 text-sm font-semibold text-gray-700">
-<a href="#home">HOME</a><a href="#residential">RESIDENTIAL</a><a href="#commercial">COMMERCIAL</a><a href="#shopping">SHOPPING CENTER</a><a href="#parking">PARKING & CCTV</a><a href="#contact">CONTACT</a>
-</div>
-<a href="https://wa.me/923086526514" class="bg-[#01411C] text-white px-6 py-2 rounded-full text-sm font-bold hover:bg-black">WHATSAPP</a>
-</div>
-</nav>
+  <!-- ====================================================== -->
+  <!-- NAVIGATION - 20 LINES -->
+  <!-- ====================================================== -->
+  <nav class="sticky top-0 z-50 bg-white shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-3">
+      <div class="flex items-center gap-3">
+        <div class="w-12 h-12 bg-[#01411C] rounded-full flex items-center justify-center text-white font-bold">
+          MN
+        </div>
+        <div>
+          <p class="font-bold text-[#01411C] text-lg leading-none">
+            M. NAWAZ
+          </p>
+          <p class="text-[10px] tracking-[4px] text-yellow-600 font-bold">
+            REAL ESTATE PAKISTAN
+          </p>
+        </div>
+      </div>
+      <div class="hidden lg:flex gap-6 text-sm font-bold">
+        <a href="#home">HOME</a>
+        <a href="#residential">RESIDENTIAL</a>
+        <a href="#commercial">COMMERCIAL</a>
+        <a href="#shopping">SHOPPING</a>
+        <a href="#parking">PARKING & CCTV</a>
+      </div>
+      <a href="https://wa.me/923086526514" class="bg-[#01411C] text-white px-6 py-2 rounded-full text-sm font-bold">
+        WHATSAPP
+      </a>
+    </div>
+  </nav>
 
-<!-- HERO SECTION -->
-<section id="home" class="hero-bg h-[90vh] flex items-center justify-center text-center text-white px-6">
-<div class="max-w-4xl">
-<p class="tracking-[8px] text-[#c9a86a] text-sm font-bold mb-4">TRUSTED SINCE 2010 | PAKISTAN'S NO.1</p>
-<h1 class="text-5xl md:text-7xl font-bold leading-tight">Premium Properties<br><span class="text-[#c9a86a]">Across Pakistan</span></h1>
-<p class="mt-6 text-lg text-gray-200 max-w-2xl mx-auto">Specializing in Bahria Town Lahore, Islamabad, Karachi | DHA All Phases | Luxury Houses, Commercial Plazas, Shopping Malls with World-Class Parking & 24/7 CCTV Security</p>
-<div class="mt-10 flex flex-wrap justify-center gap-4">
-<a href="https://wa.me/923086526514" class="bg-[#c9a86a] text-black px-10 py-4 rounded-full font-bold text-sm">0308-6526514 - WHATSAPP</a>
-<a href="tel:+923264428562" class="border-2 border-white px-10 py-4 rounded-full font-bold text-sm">0326-4428562 - CALL NOW</a>
-</div>
-<div class="mt-16 grid grid-cols-3 gap-8 border-t border-white/20 pt-8">
-<div><p class="text-3xl font-bold text-[#c9a86a]">500+</p><p class="text-xs tracking-widest">PROPERTIES SOLD</p></div>
-<div><p class="text-3xl font-bold text-[#c9a86a]">15+</p><p class="text-xs tracking-widest">YEARS EXPERIENCE</p></div>
-<div><p class="text-3xl font-bold text-[#c9a86a]">100%</p><p class="text-xs tracking-widest">CLIENT TRUST</p></div>
-</div>
-</div>
-</section>
+  <!-- ====================================================== -->
+  <!-- HERO SECTION -->
+  <!-- ====================================================== -->
+  <section id="home" class="hero text-white text-center px-6">
+    <div class="max-w-4xl">
+      <p class="tracking-[8px] text-yellow-400 text-sm font-bold">
+        TRUSTED SINCE 2010
+      </p>
+      <h1 class="text-5xl md:text-7xl font-bold mt-4">
+        Premium Properties
+        <br>
+        <span class="text-yellow-400">Across Pakistan</span>
+      </h1>
+      <p class="mt-6 text-lg">
+        Bahria Town | DHA | Commercial | Residential | Shopping Centers
+      </p>
+      <p class="mt-2 text-sm opacity-80">
+        0308-6526514 | 0326-4428562 | Lahore Pakistan
+      </p>
+      <div class="mt-8 flex justify-center gap-4">
+        <a href="https://wa.me/923086526514" class="bg-yellow-500 text-black px-8 py-3 rounded-full font-bold">
+          WHATSAPP NOW
+        </a>
+        <a href="tel:+923264428562" class="border-2 border-white px-8 py-3 rounded-full font-bold">
+          CALL NOW
+        </a>
+      </div>
+    </div>
+  </section>
 
-<!-- ABOUT -->
-<section class="py-20 px-6 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center reveal">
-<div>
-<p class="text-[#c9a86a] font-bold tracking-[5px] text-xs">ABOUT M. NAWAZ REAL ESTATE</p>
-<h2 class="text-4xl font-bold mt-3 leading-tight">Building Trust, Delivering<br>Luxury Living in Pakistan</h2>
-<p class="mt-6 text-gray-600 leading-relaxed">M. Nawaz Real Estate is Pakistan's leading property consultancy. We provide end-to-end solutions for Residential Houses, Commercial Plazas, Shopping Centers, and Investment Opportunities in Bahria Town, DHA, Gulberg, and other prime locations.</p>
-<ul class="mt-6 space-y-3 text-sm">
-<li><i class="fa fa-check text-[#01411C] mr-2"></i> Authorized Dealer - Bahria Town & DHA</li>
-<li><i class="fa fa-check text-[#01411C] mr-2"></i> Legal Documentation & NOC Verified Properties</li>
-<li><i class="fa fa-check text-[#01411C] mr-2"></i> High Rental Income Commercial Projects</li>
-<li><i class="fa fa-check text-[#01411C] mr-2"></i> International Standard Construction Quality</li>
-</ul>
-</div>
-<div class="grid grid-cols-2 gap-4">
-<img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?w=600" class="rounded-2xl h-64 w-full object-cover">
-<img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?w=600" class="rounded-2xl h-64 w-full object-cover mt-8">
-</div>
-</section>
+  <!-- ====================================================== -->
+  <!-- ABOUT SECTION - 40 LINES -->
+  <!-- ====================================================== -->
+  <section class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <p class="text-yellow-600 font-bold tracking-[5px] text-xs">
+          ABOUT US
+        </p>
+        <h2 class="text-4xl font-bold mt-3">
+          Building Trust
+          <br>
+          Delivering Luxury
+        </h2>
+        <p class="mt-6 text-gray-600">
+          M. Nawaz Real Estate is leading dealer in Pakistan.
+        </p>
+        <p class="mt-2 text-gray-600">
+          We deal in Bahria Town, DHA, Gulberg.
+        </p>
+        <p class="mt-2 text-gray-600">
+          We provide Residential Houses.
+        </p>
+        <p class="mt-2 text-gray-600">
+          We provide Commercial Plazas.
+        </p>
+        <p class="mt-2 text-gray-600">
+          We provide Shopping Centers.
+        </p>
+        <p class="mt-2 text-gray-600">
+          We provide Parking & CCTV Security.
+        </p>
+        <ul class="mt-6 space-y-2 text-sm">
+          <li>✅ Bahria Town Authorized Dealer</li>
+          <li>✅ DHA Authorized Dealer</li>
+          <li>✅ NOC Verified Properties</li>
+          <li>✅ Legal Documentation</li>
+          <li>✅ High Rental Income Projects</li>
+          <li>✅ Construction Service Available</li>
+        </ul>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?w=600" class="rounded-2xl h-64 w-full object-cover">
+        <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?w=600" class="rounded-2xl h-64 w-full object-cover mt-8">
+      </div>
+    </div>
+  </section>
 
-<!-- RESIDENTIAL SECTION -->
-<section id="residential" class="bg-white py-20 px-6">
-<div class="max-w-7xl mx-auto">
-<div class="text-center reveal"><p class="text-[#c9a86a] font-bold tracking-[5px] text-xs">RESIDENTIAL PROPERTIES</p><h2 class="text-4xl font-bold mt-3">Luxury Residential Houses</h2><p class="text-gray-500 mt-3">5 Marla to 2 Kanal - Bahria Town | DHA | Gulberg | Islamabad</p></div>
-<div class="grid md:grid-cols-3 gap-8 mt-12">
-<div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow card-hover reveal"><img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><div class="flex justify-between"><span class="bg-[#01411C] text-white text-xs px-3 py-1 rounded-full">5 MARLA</span><span class="text-[#c9a86a] font-bold">$ Demand</span></div><h3 class="font-bold mt-4 text-lg">Modern House - Bahria Town Lahore</h3><p class="text-sm text-gray-500 mt-2"><i class="fa fa-location-dot"></i> Sector C, Park Facing, 3 Beds, Double Kitchen</p><a href="https://wa.me/923086526514" class="block text-center mt-4 bg-black text-white py-2 rounded-full text-sm">Details - 0308-6526514</a></div></div>
-<div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow card-hover reveal"><img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><div class="flex justify-between"><span class="bg-[#c9a86a] text-black text-xs px-3 py-1 rounded-full">10 MARLA</span><span class="text-[#c9a86a] font-bold">$ Demand</span></div><h3 class="font-bold mt-4 text-lg">Luxury Villa - DHA Phase 6</h3><p class="text-sm text-gray-500 mt-2"><i class="fa fa-location-dot"></i> Corner, 5 Beds, Swimming Pool, Servant Quarter</p><a href="https://wa.me/923086526514" class="block text-center mt-4 bg-black text-white py-2 rounded-full text-sm">Details - 0308-6526514</a></div></div>
-<div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow card-hover reveal"><img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><div class="flex justify-between"><span class="bg-[#01411C] text-white text-xs px-3 py-1 rounded-full">1 KANAL</span><span class="text-[#c9a86a] font-bold">$ Demand</span></div><h3 class="font-bold mt-4 text-lg">Executive House - Bahria Orchard</h3><p class="text-sm text-gray-500 mt-2"><i class="fa fa-location-dot"></i> 6 Beds, Home Theater, Imported Fittings</p><a href="https://wa.me/923086526514" class="block text-center mt-4 bg-black text-white py-2 rounded-full text-sm">Details - 0308-6526514</a></div></div>
-<div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow card-hover reveal"><img src="https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><div class="flex justify-between"><span class="bg-black text-white text-xs px-3 py-1 rounded-full">8 MARLA</span><span class="text-[#c9a86a] font-bold">$ Demand</span></div><h3 class="font-bold mt-4 text-lg">Spanish Design - Islamabad</h3><p class="text-sm text-gray-500 mt-2"><i class="fa fa-location-dot"></i> Faisal Town, Near Motorway, Solid Construction</p><a href="tel:+923264428562" class="block text-center mt-4 bg-[#01411C] text-white py-2 rounded-full text-sm">Call - 0326-4428562</a></div></div>
-<div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow card-hover reveal"><img src="https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><div class="flex justify-between"><span class="bg-[#c9a86a] text-black text-xs px-3 py-1 rounded-full">CORNER</span><span class="text-[#c9a86a] font-bold">$ Demand</span></div><h3 class="font-bold mt-4 text-lg">Corner Park Facing - Bahria</h3><p class="text-sm text-gray-500 mt-2"><i class="fa fa-location-dot"></i> 40ft Road, Park Face, Best for Living</p><a href="tel:+923264428562" class="block text-center mt-4 bg-[#01411C] text-white py-2 rounded-full text-sm">Call - 0326-4428562</a></div></div>
-<div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow card-hover reveal"><img src="https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><div class="flex justify-between"><span class="bg-[#01411C] text-white text-xs px-3 py-1 rounded-full">2 KANAL</span><span class="text-[#c9a86a] font-bold">$ Demand</span></div><h3 class="font-bold mt-4 text-lg">Farm House - Bedian Road Lahore</h3><p class="text-sm text-gray-500 mt-2"><i class="fa fa-location-dot"></i> Pool, Garden, Boundary Wall, Peaceful Area</p><a href="tel:+923264428562" class="block text-center mt-4 bg-[#01411C] text-white py-2 rounded-full text-sm">Call - 0326-4428562</a></div></div>
-</div>
-</div>
-</section>
+  <!-- ====================================================== -->
+  <!-- RESIDENTIAL SECTION - 6 HOUSES - 120 LINES -->
+  <!-- ====================================================== -->
+  <section id="residential" class="bg-white py-20 px-6">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center">
+        <p class="text-yellow-600 font-bold tracking-[5px] text-xs">
+          RESIDENTIAL
+        </p>
+        <h2 class="text-4xl font-bold mt-3">
+          Luxury Residential Houses
+        </h2>
+        <p class="text-gray-500 mt-2">
+          5 Marla to 2 Kanal - Bahria Town | DHA
+        </p>
+      </div>
 
-<!-- COMMERCIAL SECTION -->
-<section id="commercial" class="green-bg py-20 px-6 text-white">
-<div class="max-w-7xl mx-auto">
-<div class="text-center reveal"><p class="text-[#c9a86a] font-bold tracking-[5px] text-xs">COMMERCIAL INVESTMENT</p><h2 class="text-4xl font-bold mt-3">High ROI Commercial Plazas</h2><p class="text-gray-300 mt-3">Best for Rental Income - 3 Lac to 10 Lac Monthly Rent</p></div>
-<div class="grid md:grid-cols-3 gap-8 mt-12">
-<div class="bg-white text-black rounded-2xl overflow-hidden card-hover reveal"><img src="https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><h3 class="font-bold text-lg">4 Storey Plaza - Main Boulevard Bahria</h3><p class="text-sm text-gray-600 mt-2">Lift + Basement Parking + Rooftop | Rental 4 Lac/Month</p><p class="mt-3 font-bold">Contact: 0308-6526514</p></div></div>
-<div class="bg-white text-black rounded-2xl overflow-hidden card-hover reveal"><img src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><h3 class="font-bold text-lg">Corporate Plaza - DHA Phase 6 Lahore</h3><p class="text-sm text-gray-600 mt-2">Glass Front, International Brands, High Demand</p><p class="mt-3 font-bold">Contact: 0326-4428562</p></div></div>
-<div class="bg-white text-black rounded-2xl overflow-hidden card-hover reveal"><img src="https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?w=600" class="h-60 w-full object-cover"><div class="p-6"><h3 class="font-bold text-lg">Commercial Plaza - Gulberg III</h3><p class="text-sm text-gray-600 mt-2">MM Alam Road, Best Location, Already Rented</p><p class="mt-3 font-bold">Contact: 0308-6526514</p></div></div>
-</div>
-</div>
-</section>
+      <!-- House 1 -->
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow">
+          <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <span class="bg-[#01411C] text-white text-xs px-3 py-1 rounded-full">5 MARLA</span>
+            <h3 class="font-bold mt-4">Modern House - Bahria Town</h3>
+            <p class="text-sm text-gray-500 mt-2">Sector C, Park Facing</p>
+            <p class="text-sm text-gray-500">3 Beds, Double Kitchen</p>
+            <p class="text-sm text-gray-500">Contact: 0308-6526514</p>
+            <a href="https://wa.me/923086526514" class="block text-center mt-4 bg-black text-white py-2 rounded-full text-sm">Details</a>
+          </div>
+        </div>
 
-<!-- SHOPPING CENTER SECTION -->
-<section id="shopping" class="py-20 px-6 bg-[#f8f6f0]">
-<div class="max-w-7xl mx-auto">
-<div class="text-center reveal"><p class="text-[#c9a86a] font-bold tracking-[5px] text-xs">SHOPPING & MALL</p><h2 class="text-4xl font-bold mt-3">Shopping Centers & Retail Shops</h2><p class="text-gray-500 mt-3">Ground Floor Shops, Food Court, Branded Outlets</p></div>
-<div class="grid md:grid-cols-2 gap-8 mt-12">
-<div class="bg-white rounded-2xl overflow-hidden shadow flex reveal"><img src="https://images.pexels.com/photos/264507/pexels-photo-264507.jpeg?w=400" class="w-1/2 object-cover"><div class="p-6 w-1/2"><h3 class="font-bold">Shop in Bahria Mall</h3><p class="text-xs text-gray-500 mt-2">Size 12x30, Ground Floor, Already Rented to Brand. Monthly Rent 1.5 Lac.</p><p class="mt-4 font-bold text-[#01411C]">0308-6526514</p></div></div>
-<div class="bg-white rounded-2xl overflow-hidden shadow flex reveal"><img src="https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?w=400" class="w-1/2 object-cover"><div class="p-6 w-1/2"><h3 class="font-bold">Food Court Shop</h3><p class="text-xs text-gray-500 mt-2">Near Cinema, High Footfall, Best for Fast Food Business.</p><p class="mt-4 font-bold text-[#01411C]">0326-4428562</p></div></div>
-</div>
-</div>
-</section>
+        <!-- House 2 -->
+        <div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow">
+          <img src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <span class="bg-yellow-500 text-black text-xs px-3 py-1 rounded-full">10 MARLA</span>
+            <h3 class="font-bold mt-4">Luxury Villa - DHA Phase 6</h3>
+            <p class="text-sm text-gray-500 mt-2">Corner, 5 Beds</p>
+            <p class="text-sm text-gray-500">Swimming Pool</p>
+            <p class="text-sm text-gray-500">Contact: 0308-6526514</p>
+            <a href="https://wa.me/923086526514" class="block text-center mt-4 bg-black text-white py-2 rounded-full text-sm">Details</a>
+          </div>
+        </div>
 
-<!-- PARKING & CCTV SECTION -->
-<section id="parking" class="py-20 px-6 max-w-7xl mx-auto">
-<div class="text-center reveal"><p class="text-[#c9a86a] font-bold tracking-[5px] text-xs">WORLD CLASS FACILITIES</p><h2 class="text-4xl font-bold mt-3">Parking, CCTV & Security</h2><p class="text-gray-500 mt-3">International Standard Facilities in Every Society</p></div>
-<div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
-<div class="bg-white rounded-2xl overflow-hidden shadow text-center reveal"><img src="https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?w=600" class="h-48 w-full object-cover"><div class="p-4"><i class="fa fa-square-parking text-2xl text-[#01411C]"></i><h4 class="font-bold mt-2 text-sm">Underground Parking</h4><p class="text-xs text-gray-500 mt-1">2 Floors Basement Parking for 100+ Cars</p></div></div>
-<div class="bg-white rounded-2xl overflow-hidden shadow text-center reveal"><img src="https://images.pexels.com/photos/320617/pexels-photo-320617.jpeg?w=600" class="h-48 w-full object-cover"><div class="p-4"><i class="fa fa-video text-2xl text-[#01411C]"></i><h4 class="font-bold mt-2 text-sm">24/7 CCTV Cameras</h4><p class="text-xs text-gray-500 mt-1">HD Night Vision, Control Room, Mobile App</p></div></div>
-<div class="bg-white rounded-2xl overflow-hidden shadow text-center reveal"><img src="https://images.pexels.com/photos/1712326/pexels-photo-1712326.jpeg?w=600" class="h-48 w-full object-cover"><div class="p-4"><i class="fa fa-elevator text-2xl text-[#01411C]"></i><h4 class="font-bold mt-2 text-sm">High Speed Lift</h4><p class="text-xs text-gray-500 mt-1">Cargo + Passenger Lift, Generator Backup</p></div></div>
-<div class="bg-white rounded-2xl overflow-hidden shadow text-center reveal"><img src="https://images.pexels.com/photos/1390403/pexels-photo-1390403.jpeg?w=600" class="h-48 w-full object-cover"><div class="p-4"><i class="fa fa-road text-2xl text-[#01411C]"></i><h4 class="font-bold mt-2 text-sm">Wide Roads - 80ft</h4><p class="text-xs text-gray-500 mt-1">Bahria & DHA Standard Wide Roads</p></div></div>
-</div>
-<!-- EXTRA SOCIETY FEATURES -->
-<div class="grid md:grid-cols-4 gap-6 mt-12 text-center reveal">
-<div class="bg-[#01411C] text-white rounded-xl p-6"><i class="fa fa-mosque text-2xl text-[#c9a86a]"></i><p class="font-bold mt-2 text-sm">Mosque</p><p class="text-xs mt-1 opacity-70">Grand Mosque in Every Block</p></div>
-<div class="bg-[#01411C] text-white rounded-xl p-6"><i class="fa fa-tree text-2xl text-[#c9a86a]"></i><p class="font-bold mt-2 text-sm">Parks & Zoo</p><p class="text-xs mt-1 opacity-70">Theme Park, Green Belts</p></div>
-<div class="bg-[#01411C] text-white rounded-xl p-6"><i class="fa fa-school text-2xl text-[#c9a86a]"></i><p class="font-bold mt-2 text-sm">Schools</p><p class="text-xs mt-1 opacity-70">Roots, Beaconhouse, International</p></div>
-<div class="bg-[#01411C] text-white rounded-xl p-6"><i class="fa fa-hospital text-2xl text-[#c9a86a]"></i><p class="font-bold mt-2 text-sm">Hospitals</p><p class="text-xs mt-1 opacity-70">24/7 Emergency & Labs</p></div>
-</div>
-</section>
+        <!-- House 3 -->
+        <div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow">
+          <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <span class="bg-[#01411C] text-white text-xs px-3 py-1 rounded-full">1 KANAL</span>
+            <h3 class="font-bold mt-4">Executive House - Orchard</h3>
+            <p class="text-sm text-gray-500 mt-2">6 Beds, Theater</p>
+            <p class="text-sm text-gray-500">Imported Fittings</p>
+            <p class="text-sm text-gray-500">Contact: 0326-4428562</p>
+            <a href="tel:+923264428562" class="block text-center mt-4 bg-[#01411C] text-white py-2 rounded-full text-sm">Call</a>
+          </div>
+        </div>
 
-<!-- MARKETING OFFICE -->
-<section class="bg-black text-white py-16 px-6">
-<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center reveal">
-<div><h2 class="text-3xl font-bold">Marketing Office - M. Nawaz Real Estate</h2><p class="mt-4 text-gray-300">Visit our Head Office for Free Consultancy. We guide you for Best Investment in Pakistan. Legal Advice, Map Approval, Construction Service also available.</p><p class="mt-6"><i class="fa fa-location-dot text-[#c9a86a]"></i> Main Office: Bahria Town Lahore, Near Talwar Chowk<br><i class="fa fa-clock text-[#c9a86a] mt-2"></i> Timing: 10 AM to 9 PM - 7 Days Open</p></div>
-<div class="bg-white text-black rounded-2xl p-8">
-<h3 class="font-bold text-xl">Contact Muhammad Nawaz</h3>
-<p class="text-sm text-gray-600 mt-2">CEO - M. Nawaz Real Estate Pakistan</p>
-<div class="mt-6 space-y-4">
-<a href="tel:+923086526514" class="flex items-center gap-3 bg-[#01411C] text-white p-3 rounded-full justify-center font-bold"><i class="fa fa-phone"></i> 0308-6526514 - Primary</a>
-<a href="tel:+923264428562" class="flex items-center gap-3 bg-black text-white p-3 rounded-full justify-center font-bold"><i class="fa fa-phone"></i> 0326-4428562 - Secondary</a>
-<a href="https://wa.me/923086526514" class="flex items-center gap-3 bg-[#25D366] text-white p-3 rounded-full justify-center font-bold"><i class="fab fa-whatsapp"></i> WhatsApp - Chat Now</a>
-<p class="text-center text-sm mt-4"><i class="fa fa-envelope"></i> muhammadnawazoffical@gmail.com</p>
-</div>
-</div>
-</div>
-</section>
+        <!-- House 4 -->
+        <div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow">
+          <img src="https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <span class="bg-black text-white text-xs px-3 py-1 rounded-full">8 MARLA</span>
+            <h3 class="font-bold mt-4">Spanish Design - Islamabad</h3>
+            <p class="text-sm text-gray-500 mt-2">Faisal Town</p>
+            <p class="text-sm text-gray-500">Near Motorway</p>
+            <p class="text-sm text-gray-500">Contact: 0326-4428562</p>
+            <a href="tel:+923264428562" class="block text-center mt-4 bg-[#01411C] text-white py-2 rounded-full text-sm">Call</a>
+          </div>
+        </div>
 
-<!-- FOOTER -->
-<footer id="contact" class="bg-[#0a0a0a] text-white py-12 px-6 text-center">
-<p class="font-bold tracking-[6px] text-[#c9a86a]">M. NAWAZ REAL ESTATE PAKISTAN</p>
-<p class="mt-4 text-sm text-gray-400">Bahria Town | DHA Lahore | DHA Islamabad | Gulberg | Commercial | Residential | Shopping Centers | Plazas | Parking & CCTV Security</p>
-<p class="mt-6 text-sm">© 2026 M. Nawaz Real Estate - All Rights Reserved - Trusted Since 2010</p>
-<p class="mt-2 text-xs text-gray-500">0308-6526514 | 0326-4428562 | Lahore Pakistan</p>
-</footer>
+        <!-- House 5 -->
+        <div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow">
+          <img src="https://images.pexels.com/photos/209296/pexels-photo-209296.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <span class="bg-yellow-500 text-black text-xs px-3 py-1 rounded-full">CORNER</span>
+            <h3 class="font-bold mt-4">Corner Park Facing</h3>
+            <p class="text-sm text-gray-500 mt-2">40ft Road</p>
+            <p class="text-sm text-gray-500">Park Face</p>
+            <p class="text-sm text-gray-500">Contact: 0308-6526514</p>
+            <a href="https://wa.me/923086526514" class="block text-center mt-4 bg-black text-white py-2 rounded-full text-sm">Details</a>
+          </div>
+        </div>
 
-<script>
-const reveals=document.querySelectorAll('.reveal');
-function reveal(){reveals.forEach(r=>{if(r.getBoundingClientRect().top<window.innerHeight-100)r.classList.add('active')})}
-window.addEventListener('scroll',reveal);reveal();
-</script>
-</body>
-</html>
+        <!-- House 6 -->
+        <div class="bg-[#fcfaf7] rounded-2xl overflow-hidden shadow">
+          <img src="https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <span class="bg-[#01411C] text-white text-xs px-3 py-1 rounded-full">2 KANAL</span>
+            <h3 class="font-bold mt-4">Farm House - Bedian</h3>
+            <p class="text-sm text-gray-500 mt-2">Pool, Garden</p>
+            <p class="text-sm text-gray-500">Boundary Wall</p>
+            <p class="text-sm text-gray-500">Contact: 0326-4428562</p>
+            <a href="tel:+923264428562" class="block text-center mt-4 bg-[#01411C] text-white py-2 rounded-full text-sm">Call</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== -->
+  <!-- COMMERCIAL SECTION - 80 LINES -->
+  <!-- ====================================================== -->
+  <section id="commercial" class="bg-[#01411C] py-20 px-6 text-white">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center">
+        <p class="text-yellow-400 font-bold tracking-[5px] text-xs">COMMERCIAL</p>
+        <h2 class="text-4xl font-bold mt-3">Commercial Plazas</h2>
+        <p class="text-gray-300 mt-2">High Rental Income - 3 to 10 Lac Monthly</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8 mt-12">
+        <div class="bg-white text-black rounded-2xl overflow-hidden">
+          <img src="https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <h3 class="font-bold">4 Storey Plaza - Bahria Main Blvd</h3>
+            <p class="text-sm text-gray-600 mt-2">Lift + Basement Parking</p>
+            <p class="text-sm text-gray-600">Rooftop + Rental 4 Lac</p>
+            <p class="text-sm text-gray-600">Contact: 0308-6526514</p>
+            <p class="mt-3 font-bold">0308-6526514</p>
+          </div>
+        </div>
+        <div class="bg-white text-black rounded-2xl overflow-hidden">
+          <img src="https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <h3 class="font-bold">Corporate Plaza - DHA Phase 6</h3>
+            <p class="text-sm text-gray-600 mt-2">Glass Front</p>
+            <p class="text-sm text-gray-600">International Brands</p>
+            <p class="text-sm text-gray-600">Contact: 0326-4428562</p>
+            <p class="mt-3 font-bold">0326-4428562</p>
+          </div>
+        </div>
+        <div class="bg-white text-black rounded-2xl overflow-hidden">
+          <img src="https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?w=600" class="h-60 w-full object-cover">
+          <div class="p-6">
+            <h3 class="font-bold">Commercial Plaza - Gulberg</h3>
+            <p class="text-sm text-gray-600 mt-2">MM Alam Road</p>
+            <p class="text-sm text-gray-600">Already Rented</p>
+            <p class="text-sm text-gray-600">Contact: 0308-6526514</p>
+            <p class="mt-3 font-bold">0308-6526514</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== -->
+  <!-- SHOPPING CENTER SECTION - 60 LINES -->
+  <!-- ====================================================== -->
+  <section id="shopping" class="py-20 px-6 bg-[#f8f6f0]">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center">
+        <p class="text-yellow-600 font-bold tracking-[5px] text-xs">SHOPPING MALL</p>
+        <h2 class="text-4xl font-bold mt-3">Shopping Centers</h2>
+        <p class="text-gray-500 mt-2">Ground Floor Shops, Food Court</p>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <div class="bg-white rounded-2xl overflow-hidden shadow flex">
+          <img src="https://images.pexels.com/photos/264507/pexels-photo-264507.jpeg?w=400" class="w-1/2 object-cover">
+          <div class="p-6 w-1/2">
+            <h3 class="font-bold">Shop in Bahria Mall</h3>
+            <p class="text-xs text-gray-500 mt-2">Size 12x30</p>
+            <p class="text-xs text-gray-500">Ground Floor</p>
+            <p class="text-xs text-gray-500">Rented to Brand</p>
+            <p class="text-xs text-gray-500">Rent 1.5 Lac</p>
+            <p class="mt-4 font-bold text-[#01411C]">0308-6526514</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-2xl overflow-hidden shadow flex">
+          <img src="https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?w=400" class="w-1/2 object-cover">
+          <div class="p-6 w-1/2">
+            <h3 class="font-bold">Food Court Shop</h3>
+            <p class="text-xs text-gray-500 mt-2">Near Cinema</p>
+            <p class="text-xs text-gray-500">High Footfall</p>
+            <p class="text-xs text-gray-500">Best for Fast Food</p>
+            <p class="text-xs text-gray-500">Good Income</p>
+            <p class="mt-4 font-bold text-[#01411C]">0326-4428562</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== -->
+  <!-- PARKING CCTV LIFT ROADS - 100 LINES -->
+  <!-- ====================================================== -->
+  <section id="parking" class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="text-center">
+      <p class="text-yellow-600 font-bold tracking-[5px] text-xs">FACILITIES</p>
+      <h2 class="text-4xl font-bold mt-3">Parking, CCTV & Security</h2>
+      <p class="text-gray-500 mt-2">International Standard Facilities</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+      <div class="bg-white rounded-2xl overflow-hidden shadow text-center">
+        <img src="https://images.pexels.com/photos/13065690/pexels-photo-13065690.jpeg?w=600" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <i class="fa fa-square-parking text-2xl text-[#01411C]"></i>
+          <h4 class="font-bold mt-2 text-sm">Underground Parking</h4>
+          <p class="text-xs text-gray-500 mt-1">2 Floors Basement</p>
+          <p class="text-xs text-gray-500">100+ Cars Parking</p>
+          <p class="text-xs text-gray-500">24/7 Open</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow text-center">
+        <img src="https://images.pexels.com/photos/320617/pexels-photo-320617.jpeg?w=600" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <i class="fa fa-video text-2xl text-[#01411C]"></i>
+          <h4 class="font-bold mt-2 text-sm">24/7 CCTV Cameras</h4>
+          <p class="text-xs text-gray-500 mt-1">HD Night Vision</p>
+          <p class="text-xs text-gray-500">Control Room</p>
+          <p class="text-xs text-gray-500">Mobile App Access</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow text-center">
+        <img src="https://images.pexels.com/photos/1712326/pexels-photo-1712326.jpeg?w=600" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <i class="fa fa-elevator text-2xl text-[#01411C]"></i>
+          <h4 class="font-bold mt-2 text-sm">High Speed Lift</h4>
+          <p class="text-xs text-gray-500 mt-1">Cargo + Passenger</p>
+          <p class="text-xs text-gray-500">Generator Backup</p>
+          <p class="text-xs text-gray-500">Fast Service</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl overflow-hidden shadow text-center">
+        <img src="https://images.pexels.com/photos/1390403/pexels-photo-1390403.jpeg?w=600" class="h-48 w-full object-cover">
+        <div class="p-4">
+          <i class="fa fa-road text-2xl text-[#01411C]"></i>
+          <h4 class="font-bold mt-2 text-sm">Wide Roads - 80ft</h4>
+          <p class="text-xs text-gray-500 mt-1">Bahria Standard</p>
+          <p class="text-xs text-gray-500">DHA Standard</p>
+          <p class="text-xs text-gray-500">No Traffic Issue</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra Facilities -->
+    <div class="grid md:grid-cols-4 gap-6 mt-12 text-center">
+      <div class="bg-[#01411C] text-white rounded-xl p-6">
+        <i class="fa fa-mosque text-2xl text-yellow-400"></i>
+        <p class="font-bold mt-2 text-sm">Mosque</p>
+        <p class="text-xs mt-1 opacity-70">Grand Mosque in Every Block</p>
+        <p class="text-xs opacity-70">5 Times Prayers</p>
+      </div>
+      <div class="bg-[#01411C] text-white rounded-xl p-6">
+        <i class="fa fa-tree text-2xl text-yellow-400"></i>
+        <p class="font-bold mt-2 text-sm">Parks & Zoo</p>
+        <p class="text-xs mt-1 opacity-70">Theme Park, Green Belts</p>
+        <p class="text-xs opacity-70">Family Parks</p>
+      </div>
+      <div class="bg-[#01411C] text-white rounded-xl p-6">
+        <i class="fa fa-school text-2xl text-yellow-400"></i>
+        <p class="font-bold mt-2 text-sm">Schools</p>
+        <p class="text-xs mt-1 opacity-70">Roots, Beaconhouse</p>
+        <p class="text-xs opacity-70">International Standard</p>
+      </div>
+      <div class="bg-[#01411C] text-white rounded-xl p-6">
+        <i class="fa fa-hospital text-2xl text-yellow-400"></i>
+        <p class="font-bold mt-2 text-sm">Hospitals</p>
+        <p class="text-xs mt-1 opacity-70">24/7 Emergency</p>
+        <p class="text-xs opacity-70">Labs & Pharmacy</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====================================================== -->
+  <!-- CONTACT FOOTER - 50 LINES -->
+  <!-- ====================================================== -->
+  <section class="bg-black text-white py-16 px-6">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold">Marketing Office</h2>
+        <p class="mt-4 text-gray-300">M. Nawaz 
