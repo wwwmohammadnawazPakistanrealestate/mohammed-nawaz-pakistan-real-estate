@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammad Nawaz Pakistan Real Estate</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+header{background:#0a3d2e;color:white;padding:20px;text-align:center}
+.hero{background:linear-gradient(135deg,#0a3d2e,#1a6b4f);color:white;padding:45px 20px;text-align:center}
+.btn{display:inline-block;background:#25D366;color:white;padding:12px 24px;border-radius:30px;text-decoration:none;font-weight:bold;margin:6px}
+.btn2{background:white;color:#0a3d2e}
+.btn-email{background:#ff6b00}
+.grid{display:grid;gap:16px;padding:20px;max-width:1000px;margin:auto}
+@media(min-width:600px){.grid{grid-template-columns:1fr 1fr}}
+.card{background:white;border-radius:14px;overflow:hidden;box-shadow:0 3px 10px rgba(0,0,0,.1)}
+.card img{width:100%;height:200px;object-fit:cover}
+.card-body{padding:14px}
+.contact{background:#0a3d2e;color:white;padding:32px 20px;text-align:center}
+footer{background:#06281e;color:#999;padding:14px;text-align:center;font-size:12px}
+</style>
+</head>
+<body>
+<header><h1>Mohammad Nawaz Pakistan Real Estate</h1><p>Lahore</p></header>
+<div class="hero">
+<h2>Apna Ghar Hasil Karen</h2>
+<p>Lahore me behtreen plots aur ghar</p>
+<a class="btn" href="https://wa.me/923086526514">WhatsApp 0308-6526514</a>
+<a class="btn" href="https://wa.me/923264428562">WhatsApp 0326-4428562</a><br>
+<a class="btn btn2" href="tel:03086526514">Call 0308-6526514</a>
+<a class="btn btn-email" href="mailto:muhammadnawazoffical@gmail.com">Email</a>
+</div>
+<div class="grid">
+<div class="card"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800"><div class="card-body"><h4>5 Marla House - Bahria Town</h4></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800"><div class="card-body"><h4>10 Marla Plot - Park View City</h4></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800"><div class="card-body"><h4>3 Marla House - Al-Kabir Town</h4></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800"><div class="card-body"><h4>Commercial - Lake City</h4></div></div>
+</div>
+<div class="contact">
+<h3>Rabta Karen</h3>
+<p>0308-6526514<br>0326-4428562<br>muhammadnawazoffical@gmail.com</p>
+<a class="btn" href="https://wa.me/923086526514">WhatsApp 0308</a>
+<a class="btn" href="https://wa.me/923264428562">WhatsApp 0326</a><br>
+<a class="btn btn-email" href="mailto:muhammadnawazoffical@gmail.com">muhammadnawazoffical@gmail.com</a>
+</div>
+<footer>© 2026 Mohammad Nawaz Real Estate | 0308-6526514 | 0326-4428562</footer>
+</body>
+</html>
